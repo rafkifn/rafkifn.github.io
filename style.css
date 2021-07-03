@@ -1,0 +1,29 @@
+
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #fde4e4;
+}
+
+#projects {
+  background-color: #fde4e4;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+
+
+/* Desktop version */
+@media (min-width: 992px) { 
+  .nav-link:hover::after {
+          content: '';
+          display: block;
+          border-bottom: 3px solid #ffffff;
+          width: 50%;
+          margin: auto;
+          padding-bottom: 5px;
+          margin-bottom: -8px;
+      }
+}
